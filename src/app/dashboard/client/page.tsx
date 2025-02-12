@@ -114,7 +114,7 @@ const ClientDashboard = () => {
         {/* Overlay for better readability */}
         <div className="absolute inset-0 bg-white/20 backdrop-blur-xl"></div>
         {/* blur background end */}
-
+ 
         <div className="p-6 text-gray-600 dark:text-gray-300 w-full max-w-5xl z-10">
           <div className="flex justify-between">
             <h1 className="text-2xl font-bold">Client Dashboard</h1>
