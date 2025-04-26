@@ -32,7 +32,7 @@ export default function LoginPage() {
     } finally {
       setLoading(false); // ✅ Re-enable button after request
     }
-  };
+  }; 
 
   return (
     <div className="h-screen flex flex-col">
