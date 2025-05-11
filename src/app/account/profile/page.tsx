@@ -93,11 +93,11 @@ const ProfilePage = () => {
       })
       if (!res.ok) throw new Error("Faild to update profile");
 
-      setEditing(false)
+      setEditing(false);
     } catch (err) {
-      console.log(err)
+      console.log(err);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
   }
 
