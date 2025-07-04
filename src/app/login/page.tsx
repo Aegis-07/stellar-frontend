@@ -7,7 +7,7 @@ import Link from "next/link";
 import Header from "../components/header";
 
 export default function LoginPage() {
-  const { login } = useAuth();
+  const { login } = useAuth(); 
   const router = useRouter();
 
   const [email, setEmail] = useState("");
